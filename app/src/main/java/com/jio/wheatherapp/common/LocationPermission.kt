@@ -11,6 +11,7 @@ import androidx.core.content.ContextCompat.getSystemService
 import com.jio.wheatherapp.view.HomeActivity
 
 class LocationPermission (appCompatActivity: HomeActivity){
+
    private val appCompatActivity:HomeActivity
     init {
         this.appCompatActivity=appCompatActivity

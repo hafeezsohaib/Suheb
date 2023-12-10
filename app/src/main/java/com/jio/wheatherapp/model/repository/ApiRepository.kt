@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.gson.Gson
 import com.google.gson.TypeAdapter
-import com.jio.wheatherapp.model.dataclass.ApiStatus
 import com.jio.wheatherapp.model.dataclass.WeatherInfoResponse
 
 import okhttp3.ResponseBody

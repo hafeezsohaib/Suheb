@@ -1,12 +1,11 @@
 package com.jio.wheatherapp.viewmodel
 
-import android.app.Application
+
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.jio.wheatherapp.model.repository.ApiInterface
 import com.jio.wheatherapp.model.repository.ApiRepository
 import com.jio.wheatherapp.model.repository.RetrofitSingelton
-import com.jio.wheatherapp.model.dataclass.ApiStatus
 import com.jio.wheatherapp.model.dataclass.WeatherInfoResponse
 
 class HomeViewModel() :  ViewModel(){

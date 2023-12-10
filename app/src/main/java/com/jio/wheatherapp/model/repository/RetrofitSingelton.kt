@@ -13,6 +13,9 @@ import java.util.concurrent.TimeUnit
 
 
 class RetrofitSingelton//  .cache(MyApplication.cache)
+
+
+
    private constructor() : Serializable {
 
     init {
@@ -22,8 +25,6 @@ class RetrofitSingelton//  .cache(MyApplication.cache)
             //  .cache(MyApplication.cache)
             .readTimeout(60, TimeUnit.SECONDS).writeTimeout(60, TimeUnit.SECONDS)
             .build()
-
-
         mRetrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())

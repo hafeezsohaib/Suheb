@@ -180,7 +180,7 @@ class HomeActivity : BaseActivity() , LocationInterface {
                 //snackeBarMessage(this!!, this!!.getString(R.string.weather_updated))
                 setWeatherInfo(response)
             } else
-                snackeBarMessage(this!!, this!!.getString(R.string.server_issue))
+                snackeBarMessage(this, this!!.getString(R.string.server_issue))
         }
 
         homeViewModel?.getResponseError()?.observe(this
